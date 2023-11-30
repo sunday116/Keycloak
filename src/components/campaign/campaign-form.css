@@ -1,0 +1,42 @@
+.campaignForm-container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    overflow: auto;
+}
+.cFormBtnGroup {
+    position: absolute;
+    right: 6rem;
+    bottom: 6rem;
+}
+.display-none {
+    display: none;
+}
+.mt-1 {
+    margin-top: 1rem !important;
+}
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mt-3 {
+    margin-top: 3rem !important;
+}
+.mb-3 {
+    margin-bottom: 3rem !important;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+    background-color: transparent !important;
+    border: 1px solid #b1b1b1;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root {
+    background-color: transparent !important;
+}
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root {
+    border: 1px solid #b1b1b1;
+}

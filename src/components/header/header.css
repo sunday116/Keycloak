@@ -1,0 +1,17 @@
+.header-container {
+    position: fixed;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3rem;
+    color: #3e3e3e;
+}
+.header-container .btn-close {
+    position: absolute;
+    left: 1rem;
+    font-size: 13px;
+    margin-right: 13px;
+    margin-top: 5px;
+}

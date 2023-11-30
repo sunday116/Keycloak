@@ -1,0 +1,13 @@
+.right-container {
+    position: fixed;
+    left: 14rem;
+    top: 0px;
+    width: calc(100% - 14rem);
+    height: 100vh;
+}
+@media screen and (max-width: 990px) {
+    .right-container {
+        width: calc(100% - 70px);
+        left: 70px;
+    }
+}

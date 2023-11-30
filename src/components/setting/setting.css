@@ -1,0 +1,56 @@
+.main-container {
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 2rem;
+}
+.main-container .nav {
+    border: none;
+}
+.main-container .nav .nav-item {
+    --bs-nav-link-color: '#495057';
+    --bs-nav-link-hover-color: '#495057'
+}
+.main-container .nav .nav-item .active,
+.main-container .nav .nav-item .active::after,
+.main-container .nav .nav-item .active::before,
+.main-container .nav .nav-item .active:focus-visible,
+.main-container .nav .nav-item .active:hover {
+    border: none;
+    border-bottom: 2px solid black;
+}
+.main-container .nav .nav-item a,
+.main-container .nav .nav-item a::after,
+.main-container .nav .nav-item a::before,
+.main-container .nav .nav-item a:focus-visible,
+.main-container .nav .nav-item a:hover {
+    border: none;
+    --bs-nav-tabs-link-active-color: '#495057'
+}
+.main-container .apikeys-display {
+    height: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 2rem;
+}
+.main-container .apikeys-display p {
+    margin: 0px;
+}
+.main-container .btn,
+.main-container .btn:hover,
+.main-container .btn::after,
+.main-container .btn:focus-visible,
+.main-container .btn::before,
+.main-container .btn:active {
+    background: rgb(9 51 69) !important;
+    border: 0px;
+}
+.main-container input::after,
+.main-container input:focus,
+.main-container input:focus-visible,
+.main-container input::before,
+.main-container input:active {
+    box-shadow: none;
+}
